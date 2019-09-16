@@ -1,0 +1,11 @@
+This is the help file for the "Set" page with various settings:
+
+* Periodic Wakeup will periodically turn your network (wifi/mobile data) on when the app has turned it off and the screen is off. 
+
+This can help device apps and services periodically check in with the network while still saving battery/doze time most of the time. 
+
+Also, this can help reduce network congestion when you do turn the device back on, because most apps and services have synced during this period. 
+
+Note that time between wakeups is approximate. 
+
+A sensible setting would be 30 minutes between wakeups, 3 minute wakeup period. 
