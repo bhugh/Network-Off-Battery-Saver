@@ -1,0 +1,25 @@
+INSTALLATION
+To install, you'll need to enable "install unknown apps" from whatever app you are using to install the .apk (usually your file manager or web browser). In Android 9/Pie this is in Settings/Apps/Advanced/Special App Access.  Or search Settings for "install unkown apps".
+
+Because the app doesn't come from the Play Store, during install you'll receive a message "Block By Play Protect". Click "Install Anyway" to proceed.
+
+If, instead, you get an "App Not Installed" message, with no other explanation, you can usually complete the installation by turning on Airplane Mode, then running the installer again.  This often happens on the 2nd or subsequent times you have installed the app.
+
+PERMISSIONS
+When the app is first run, if all goes well it will ask for several permissions via popups:
+
+ - Write to media (Disk access - to save settings, logs, etc)
+ - VPN (Ability to monitor the network status, tell when Wifi & Mobile Networks are running or stopped)
+ - Modify System Settings (Change network state)
+ - Root access (Needed to turn Mobile Data on/off)
+ - Calendar access (This is included only due to a current Tasker bug.  The setting is NOT needed and you do not need to enable it.)
+
+If some settings are disable or you are having trouble, in the app go to Set/Check Permissions.  This goes through the permission process again.  You will see popups for any missing permissions again. If no popups appear and you see the message "All permissions checked" you should be good to go.
+
+You can manually set permissions for the app using these steps:
+
+ - Settings/Apps/Network Off Battery Saver/Permissions and enable all (except Calendar)
+ - Settings/Apps/Network Off Battery Saver/Advanced/Modify System Settings and enable "Allow modifying system settings"
+ - Open your Superuser app and check that Network Off Battery Saver is enable for Superuser access
+ 
+ Sometimes you receive additional notifications, sometimes with a vibrate or sound, asking for additional permissions. This is a bug in the current version of Tasker. You can simply disable these notifications (click on a notification when it popus up and choose "disable").
