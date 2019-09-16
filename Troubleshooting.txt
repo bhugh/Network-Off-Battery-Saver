@@ -1,4 +1,11 @@
+RUNNING WITHOUT ROOT
+Generally, a rooted device is needed to run Network Off Battery Saver.  However, you MAY be able to get the app to work on a non-rooted phone using this technique:
+
+https://tasker.joaoapps.com/userguide/en/help/ah_secure_setting_grant.html
+
 INSTALLATION
+Because Network Off Battery Saver is not a Play Store app (yet), there are several issues that may come up during installation. 
+
 To install, you'll need to enable "install unknown apps" from whatever app you are using to install the .apk (usually your file manager or web browser). In Android 9/Pie this is in Settings/Apps/Advanced/Special App Access.  Or search Settings for "install unkown apps".
 
 Because the app doesn't come from the Play Store, during install you'll receive a message "Block By Play Protect". Click "Install Anyway" to proceed.
