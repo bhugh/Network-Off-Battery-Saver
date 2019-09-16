@@ -27,4 +27,4 @@ Save and restore variables routines by u/Ratchet_Guy at r/tasker on Reddit.
 
 Check which profiles are disabled routine by u/Svampsson at r/tasker on Reddit.
 
-App icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bqlqn
+App icon made by bqlqn from www.flaticon.com - https://www.flaticon.com/authors/bqlqn
