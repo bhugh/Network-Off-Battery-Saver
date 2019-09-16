@@ -1,0 +1,101 @@
+This app turns off wifi and mobile data when the screen is off. They turn back on when the screen is on and when charging. 
+
+This can save large amounts of battery: When the network is off, most apps don't wake up and use battery. 
+
+Users have achieved 1% battery use per hour or less, during screen off periods--especially when combined with a ROM, app, or device that handles Doze well. 
+
+Tap the buttons to select operation mode. Switching modes can take a few seconds.
+
+ROOTED DEVICE REQUIRED
+
+Without root the app can't control mobile data--so running it will be worse than useless. 
+
+So if you don't have root, don't run the app. 
+
+And if you do have root, go into your root/superuser manager and double check that Network Off Battery Saver has root permission. 
+
+PERMISSIONS
+
+The app requires a few permissions to turn various networks on and off, save its data, etc. If it doesn't seem to operate correctly, please check permissions--and superuser permissions--for the app. 
+
+You may need to go into Settings/Apps/Network Off Battery Saver/Permissions and double-check all needed permissions, including "Modify System Settings" under the Advanced section. Permissions Button under "Set" helps with this. 
+
+The system will ask whether you want to allow the app to create a VPN. This is how it monitors when the network is on and off. 
+
+Finally, it asks for read and write permissions for your calendar. This is due only to a strange bug in the current version of Tasker. The app actually ***does not do anything with your calendar***  and you don't need to grant this permission. 
+
+APP STARTS AT BOOT UP - RESTORES PREVIOUS SETTINGS
+
+After it is installed, the app will always start at boot up. 
+
+It will restore settings same as before the app shut down and continue. 
+
+WHAT YOU CAN DO WITH YOUR NETWORK OFF 
+
+With mobile data and wifi off, you can still receive calls and sms messages, but not mms or other types of messages or notifications. 
+
+By default, networks turn off about 2 minutes after screen off - giving apps time to wrap things up. You can change this value as desired.
+
+Of course, when the screen is on, your network is on, so you proceed as normal. 
+
+**KEEPING TRACK OF WHAT THE APP IS DOING**
+
+LOG FILE
+A log file is kept - check on the Settings page to view it. 
+
+SOFT BEEPS TO INDICATE STATUS 
+You can enable sound - soft beeps let you know when networks are enabled (low pitch, long) or disabled (medium pitch/medium long when screen first goes off, then high pitch/short when the network actually turns off). These sounds are useful for understanding what is happening when the screen is off. 
+
+NOTIFICATIONS TO INDICATE STATUS
+Notifications will indicate when the network is turned on and off. You can disable notifications on the main screen. 
+
+PERIODIC NETWORK WAKEUP
+Periodically the network will wake up for a few minutes to allow apps to sync. Generally, Dozing apps will take that opportunity to sync and do needed networking tasks at that time. This helps ease network load when you turn the screen back on. 
+
+Tweak the wakeup settings on the Set page. 
+
+USING WITH OTHER APPS 
+
+Suggestion: Combine this app with apps like Greenify, Servicely, or Naptime--or simply a ROM, custom kernel, or device that will use Doze effectively. 
+
+If using an app, enable Aggressive Doze. When the network is off - thanks to NOBS - apps can't work or sync, so they have little choice but to start dozing and your battery will be spared.
+
+In Greenify, you may need to disable hibernation for podcast and music player apps that need to run continually while the screen is off. 
+
+You may need to disable hibernation for this app (Network Off Battery Saver) so that it can control the network connectivity while the screen is off. 
+
+For internet-connected podcast and music players, you may need to enable Keep Network On mode on this app while you are listening - one reason for the buttonS on the app's main screen that allows you to change modes. 
+
+OPERATING MODES - OR, THE BIG BUTTONS
+
+For the most part, you will just start the app and let run - never even touch the buttons. The app will turn the networks off when the screen is off and turn them on again when you turn the screen on. You save battery, you are happy. 
+
+The buttons are for occasional special circumstances when you need to change to alternate modes:
+
+* Network Off when Screen Off: This is the default mode of the app. Network turns off soon after screen off. It turns on again for a few minutes periodically to allow syncing and turns on and stays on as long as you have the charger plugged in. 
+
+* Keep Network On: The app won't do anything at all, leaving the networks entirely under your control. 
+
+* Network Always Off: The app will turn the networks off and work to keep them off. Even if you manually turn them back on, it will turn them off again when the screen turns off, and won't turn them back on. 
+
+It's like a partial Airline Mode - for occasions when you want to save battery by keeping networks off automatically for an extended period. For example, if you are in an area with poor data and wifi but decent cell signal for voice, you may want voice and sms connectivity but don't want the battery drain caused by continually searching for a mobile data connection. 
+
+* Temporary Network On: If you have a particular reason you need network on for a period, you can set the minutes needed and click "Temp Net On" This is useful if, for example, you have certain files you need to upload or download occasionally, they take a while to complete, and you don't want to keep screen on to complete them. 
+
+WHY A "USELESS NOTIFICATION"? 
+The app posts a "useless notification" when it starts. You should hide these. They are important to the app's function (the app is based on Tasker, which also uses the same type of notifications) but you can hide them so they don't clutter your device.
+
+This is in addition to the actually useful notifications mentioned above. 
+
+NOTES AND ACKNOWLEDGEMENTS 
+This app was made for use on my own device and for my own purposes. If it helps you, great. If it doesn't, just uninstall it. No warrantee, express or implied. 
+
+The app saves a few variables to retain app state on restart. It saves a log file you can view. It doesn't phone home or have ads. It just turns the networks on and off and (if desired) shows a few notifications that it has done so. 
+
+App made with Tasker. 
+
+Save and restore variables routines by u/Ratchet_Guy at r/tasker on Reddit. 
+
+Check which profiles are disabled routine by u/Svampsson at r/tasker on Reddit.
+
+Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bqlqn
