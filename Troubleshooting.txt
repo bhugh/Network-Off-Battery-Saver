@@ -4,6 +4,7 @@ TROUBLESHOOTING TIPS
 TOP TIPS:
  #1. Turn on airplane mode when installing the app (prevents Play Protect from stopping installation midway with a mysterious message)
  #2. Check and fix app permissions using the Set/Check Permissions button.
+ #3. If wifi turns off but cellular data always stays on, it is because the app doesn't have root permission (see below)
 
 RUNNING WITHOUT ROOT
 Generally, a rooted device is needed to run Network Off Battery Saver.  However, you MAY be able to get the app to work on a non-rooted phone using this technique:
