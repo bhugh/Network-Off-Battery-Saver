@@ -3,7 +3,8 @@
 	<Profile sr="prof418" ve="2">
 		<cdate>1568616443208</cdate>
 		<clp>true</clp>
-		<edate>1568602417113</edate>
+		<edate>1568672930479</edate>
+		<flags>1</flags>
 		<id>418</id>
 		<limit>true</limit>
 		<mid0>362</mid0>
@@ -24,7 +25,7 @@
 	<Profile sr="prof419" ve="2">
 		<cdate>1568616443214</cdate>
 		<clp>true</clp>
-		<edate>1568603398464</edate>
+		<edate>1568672940447</edate>
 		<flags>1</flags>
 		<id>419</id>
 		<limit>true</limit>
@@ -38,7 +39,7 @@
 	<Profile sr="prof420" ve="2">
 		<cdate>1568616443222</cdate>
 		<clp>true</clp>
-		<edate>1568603218741</edate>
+		<edate>1568672947936</edate>
 		<flags>1</flags>
 		<id>420</id>
 		<limit>true</limit>
@@ -53,7 +54,8 @@
 	<Profile sr="prof421" ve="2">
 		<cdate>1568616443232</cdate>
 		<clp>true</clp>
-		<edate>1568454141463</edate>
+		<edate>1568672955286</edate>
+		<flags>1</flags>
 		<id>421</id>
 		<limit>true</limit>
 		<mid0>398</mid0>
@@ -71,8 +73,8 @@
 	</Profile>
 	<Profile sr="prof422" ve="2">
 		<cdate>1568616443253</cdate>
-		<clp>true</clp>
-		<edate>1568454142265</edate>
+		<edate>1568672906772</edate>
+		<flags>1</flags>
 		<id>422</id>
 		<limit>true</limit>
 		<mid0>371</mid0>
@@ -89,7 +91,8 @@
 	<Profile sr="prof423" ve="2">
 		<cdate>1568616443260</cdate>
 		<clp>true</clp>
-		<edate>1568551686338</edate>
+		<edate>1568672977615</edate>
+		<flags>1</flags>
 		<id>423</id>
 		<limit>true</limit>
 		<mid0>352</mid0>
@@ -106,7 +109,8 @@
 	<Profile sr="prof424" ve="2">
 		<cdate>1568616443268</cdate>
 		<clp>true</clp>
-		<edate>1568182420755</edate>
+		<edate>1568672991455</edate>
+		<flags>1</flags>
 		<id>424</id>
 		<limit>true</limit>
 		<mid0>382</mid0>
@@ -121,7 +125,8 @@
 	<Profile sr="prof425" ve="2">
 		<cdate>1568616443284</cdate>
 		<clp>true</clp>
-		<edate>1568452271664</edate>
+		<edate>1568673003613</edate>
+		<flags>1</flags>
 		<id>425</id>
 		<limit>true</limit>
 		<mid0>355</mid0>
@@ -138,7 +143,8 @@
 	<Profile sr="prof426" ve="2">
 		<cdate>1568616443291</cdate>
 		<clp>true</clp>
-		<edate>1568452304616</edate>
+		<edate>1568673015049</edate>
+		<flags>1</flags>
 		<id>426</id>
 		<limit>true</limit>
 		<mid0>356</mid0>
@@ -150,7 +156,8 @@
 	<Profile sr="prof427" ve="2">
 		<cdate>1568616443311</cdate>
 		<clp>true</clp>
-		<edate>1568477756672</edate>
+		<edate>1568673026492</edate>
+		<flags>1</flags>
 		<id>427</id>
 		<limit>true</limit>
 		<mid0>360</mid0>
@@ -167,7 +174,8 @@
 	<Profile sr="prof428" ve="2">
 		<cdate>1568616443317</cdate>
 		<clp>true</clp>
-		<edate>1568600642592</edate>
+		<edate>1568673037954</edate>
+		<flags>1</flags>
 		<id>428</id>
 		<limit>true</limit>
 		<mid0>361</mid0>
@@ -188,18 +196,19 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1567885570412</cdate>
 		<name>Network Off Battery Saver</name>
-		<pids>422,423,428,426,418,420,424,427,425,419,421</pids>
-		<scenes>Main Configuration Screen,Settings Screen</scenes>
-		<tids>378,393,365,384,391,406,351,401,390,431,415,358,394,413,375,410,353,381,395,377,364,388,354,430,373,414,362,350,397,400,366,407,416,356,396,403,355,376,389,359,408,404,409,417,374,386,385,367,387,383,398,412,411,405,352,379,380,382,372,370,371,357,363,392,368,399,361,369,360</tids>
+		<pids>419,426,428,423,420,422,425,418,424,421,427</pids>
+		<scenes>Main Configuration Screen,Settings Screen,Variable Query</scenes>
+		<tids>405,373,377,397,367,351,416,394,403,375,393,370,388,406,359,410,415,378,409,391,358,401,366,398,414,387,407,411,356,382,417,384,413,396,430,389,376,386,355,350,374,365,381,361,390,404,408,431,353,380,395,369,412,360,354,385,383,400,357,363,392,362,399,368,379,371,352,372,364</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>WRITE_SETTINGS</eperm0>
+			<eperm1>ACCESS_SUPERUSER</eperm1>
 			<feat0>android.hardware.wifi:y</feat0>
 			<launchID>369</launchID>
 			<pkg>com.bbjproductions.android.networkoffbatterysaver</pkg>
 			<vTarg>28</vTarg>
-			<vnme>2.2</vnme>
-			<vnum>50</vnum>
+			<vnme>2.25</vnme>
+			<vnum>57</vnum>
 		</Kid>
 		<Share sr="Share">
 			<d>This app turns off wifi and mobile data when the screen is off. They turn back on when the screen is on, and also whenever the phone is plugged in. 
@@ -212,15 +221,19 @@ The disadvantages are small, as you can still receive phone calls and sms messag
 
 Three other modes are selectable and occasionally useful:
 
- * Leave Network Alone - ie, temp disable most app functions 
+ * Leave Network Alone - ie, your phone runs as it normally did before you installed the app
 
- * Keep  Network Always Off - ie, airplane mode lite
+ * Keep  Network Always Off - ie, airplane mode lite--still receive calls and texts but all other network functions off. 
 
  * Temporarily Keep Network On for a period - ie, if you're uploading or downloading a number of files and need your network to be up for a while, but not forever. 
 
-Root required. Help  file has many details and questions answered.
+Root required (though an experimental method mentioned in the "Troubleshooting" section of the Help File has a possible way around lack of root) 
 
-Version 2.21</d>
+Help tab has many details and questions answered.
+
+Troubleshooting tips here: https://github.com/bhugh/Network-Off-Battery-Saver/blob/master/Troubleshooting.txt
+
+Version 2.26</d>
 			<t>1App Init - Configuration Screen</t>
 		</Share>
 		<Img sr="icon" ve="2">
@@ -898,6 +911,95 @@ Version 2.21</d>
 			</Img>
 			<Str sr="arg7" ve="3">Main, Help, Hide, Off</Str>
 			<LinkClickFilter sr="filter0"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneVariable Query">
+		<cdate>1568697255360</cdate>
+		<edate>1568697255360</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>641</heightPort>
+		<nme>Variable Query</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>742</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>13,0,729,162,6,0,324,72</geom>
+			<Str sr="arg0" ve="3">Title</Str>
+			<Str sr="arg1" ve="3">Title</Str>
+			<Int sr="arg2" val="28"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF5E97F6</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="3"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+		</TextElement>
+		<RectElement sr="elements1">
+			<flags>4</flags>
+			<geom>0,162,742,6,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Header</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<EditTextElement sr="elements2" ve="3">
+			<flags>13</flags>
+			<geom>31,261,679,162,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">TextEdit1</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8" val="1000"/>
+		</EditTextElement>
+		<RectElement sr="elements3">
+			<flags>4</flags>
+			<geom>0,506,742,6,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Footer</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#77333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements4" ve="2">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>117,506,135,135,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Accept</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_navigation_accept</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<ImageElement sr="elements5" ve="2">
+			<clickTask>-936</clickTask>
+			<flags>4</flags>
+			<geom>490,506,135,135,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Cancel</Str>
+			<Img sr="arg1" ve="2">
+				<nme>hd_content_remove</nme>
+			</Img>
+			<Int sr="arg2" val="255"/>
+		</ImageElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Variable Query</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
 		</PropertiesElement>
 	</Scene>
 	<Task sr="task350">
@@ -2070,14 +2172,14 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 	</Task>
 	<Task sr="task358">
 		<cdate>1435079541637</cdate>
-		<edate>1568614389281</edate>
+		<edate>1568697220882</edate>
 		<id>358</id>
 		<nme>Backup Tasker User Variables</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<label>TASK WRITTEN BY u/Ratchet_Guy at r/Tasker on Reddit
-✔ SET PATH TO BACKUP FILE TO BE CREATED OR RE-WRITTEN</label>
+âœ” SET PATH TO BACKUP FILE TO BE CREATED OR RE-WRITTEN</label>
 			<Str sr="arg0" ve="3">%filepathname</Str>
 			<Str sr="arg1" ve="3">Android/data/com.bbjproductions.android.networkoffbatterysaver/files/saves/variables.txt</Str>
 			<Int sr="arg2" val="0"/>
@@ -2087,7 +2189,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>300</code>
-			<label>↘ BEGIN - ENJOY! reddit /u/Ratchet_Guy</label>
+			<label>â†˜ BEGIN - ENJOY! reddit /u/Ratchet_Guy</label>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>355</code>
@@ -2175,7 +2277,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
-			<label>✴ THIS WILL DESIGNATE THE START OF EACH NEW VAR PAIR WHEN WRITTEN TO TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
+			<label>âœ´ THIS WILL DESIGNATE THE START OF EACH NEW VAR PAIR WHEN WRITTEN TO TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
 			<Str sr="arg0" ve="3">%joiner</Str>
 			<Str sr="arg1" ve="3">%ret{{varName=&gt;}}%space</Str>
 			<Int sr="arg2" val="0"/>
@@ -2185,7 +2287,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
-			<label>✴ THIS WILL SEPARATE EACH VARS NAME FROM ITS VALUE, WHEN WRITTEN IN TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
+			<label>âœ´ THIS WILL SEPARATE EACH VARS NAME FROM ITS VALUE, WHEN WRITTEN IN TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
 			<Str sr="arg0" ve="3">%equals_sign</Str>
 			<Str sr="arg1" ve="3">%space{{varValue=&gt;}}%space</Str>
 			<Int sr="arg2" val="0"/>
@@ -3478,7 +3580,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 	</Task>
 	<Task sr="task369">
 		<cdate>1568077720619</cdate>
-		<edate>1568620273218</edate>
+		<edate>1568697047893</edate>
 		<id>369</id>
 		<nme>1App Init - Configuration Screen</nme>
 		<pri>100</pri>
@@ -3838,7 +3940,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 	</Task>
 	<Task sr="task371">
 		<cdate>1568446333530</cdate>
-		<edate>1568446394200</edate>
+		<edate>1568672393275</edate>
 		<id>371</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -4416,107 +4518,53 @@ Low beep then (seconds or minutes later) high beep = networks off initiated, the
 			<code>547</code>
 			<label>Help Screen Text</label>
 			<Str sr="arg0" ve="3">%MainHelpText</Str>
-			<Str sr="arg1" ve="3">This app turns off wifi and mobile data when the screen is off. They turn back on when the screen is on and when charging. 
+			<Str sr="arg1" ve="3">This app turns off wifi and mobile data when the screen is off. They turn back on when the screen is on and when charging. This can save large amounts of battery: When the network is off, most apps don't wake up and use battery. Users have achieved 1% battery use per hour or less, during screen off periods--especially when combined with a ROM, app, or device that handles Doze well. Tap the buttons to select operation mode. Switching modes can take a few seconds. ROOTED DEVICE REQUIRED Without root the app can't control mobile data--so running it will be worse than useless. So if you don't have root, don't run the app. And if you do have root, go into your root/superuser manager and double check that Network Off Battery Saver has root permission. PERMISSIONS The app requires a few permissions to turn various networks on and off, save its data, etc. If it doesn't seem to operate correctly, please check permissions--and superuser permissions--for the app. You may need to go into Settings/Apps/Network Off Battery Saver/Permissions and double-check all needed permissions, including "Modify System Settings" under the Advanced section. Permissions Button under "Set" helps with this. The system will ask whether you want to allow the app to create a VPN. This is how it monitors when the network is on and off. Finally, it asks for read and write permissions for your calendar. This is due only to a strange bug in the current version of Tasker. The app actually ***does not do anything with your calendar*** and you don't need to grant this permission. APP STARTS AT BOOT UP - RESTORES PREVIOUS SETTINGS After it is installed, the app will always start at boot up. It will restore settings same as before the app shut down and continue. WHAT YOU CAN DO WITH YOUR NETWORK OFF With mobile data and wifi off, you can still receive calls and sms messages, but not mms or other types of messages or notifications. By default, networks turn off about 2 minutes after screen off - giving apps time to wrap things up. You can change this value as desired. Of course, when the screen is on, your network is on, so you proceed as normal. **KEEPING TRACK OF WHAT THE APP IS DOING** LOG FILE A log file is kept - check on the Settings page to view it. SOFT BEEPS TO INDICATE STATUS You can enable sound - soft beeps let you know when networks are enabled (low pitch, long) or disabled (medium pitch/medium long when screen first goes off, then high pitch/short when the network actually turns off). These sounds are useful for understanding what is happening when the screen is off. NOTIFICATIONS TO INDICATE STATUS Notifications will indicate when the network is turned on and off. You can disable notifications on the main screen. PERIODIC NETWORK WAKEUP Periodically the network will wake up for a few minutes to allow apps to sync. Generally, Dozing apps will take that opportunity to sync and do needed networking tasks at that time. This helps ease network load when you turn the screen back on. Tweak the wakeup settings on the Set page. USING WITH OTHER APPS Suggestion: Combine this app with apps like Greenify, Servicely, or Naptime--or simply a ROM, custom kernel, or device that will use Doze effectively. If using an app, enable Aggressive Doze. When the network is off - thanks to NOBS - apps can't work or sync, so they have little choice but to start dozing and your battery will be spared. In Greenify, you may need to disable hibernation for podcast and music player apps that need to run continually while the screen is off. You may need to disable hibernation for this app (Network Off Battery Saver) so that it can control the network connectivity while the screen is off. For internet-connected podcast and music players, you may need to enable Keep Network On mode on this app while you are listening - one reason for the buttonS on the app's main screen that allows you to change modes. OPERATING MODES - OR, THE BIG BUTTONS For the most part, you will just start the app and let run - never even touch the buttons. The app will turn the networks off when the screen is off and turn them on again when you turn the screen on. You save battery, you are happy. The buttons are for occasional special circumstances when you need to change to alternate modes: * Network Off when Screen Off: This is the default mode of the app. Network turns off soon after screen off. It turns on again for a few minutes periodically to allow syncing and turns on and stays on as long as you have the charger plugged in. * Keep Network On: The app won't do anything at all, leaving the networks entirely under your control. * Network Always Off: The app will turn the networks off and work to keep them off. Even if you manually turn them back on, it will turn them off again when the screen turns off, and won't turn them back on. It's like a partial Airline Mode - for occasions when you want to save battery by keeping networks off automatically for an extended period. For example, if you are in an area with poor data and wifi but decent cell signal for voice, you may want voice and sms connectivity but don't want the battery drain caused by continually searching for a mobile data connection. * Temporary Network On: If you have a particular reason you need network on for a period, you can set the minutes needed and click "Temp Net On" This is useful if, for example, you have certain files you need to upload or download occasionally, they take a while to complete, and you don't want to keep screen on to complete them. WHY A "USELESS NOTIFICATION"? The app posts a "useless notification" when it starts. You should hide these. They are important to the app's function (the app is based on Tasker, which also uses the same type of notifications) but you can hide them so they don't clutter your device. This is in addition to the actually useful notifications mentioned above. NOTES AND ACKNOWLEDGEMENTS This app was made for use on my own device and for my own purposes. If it helps you, great. If it doesn't, just uninstall it. No warrantee, express or implied. The app saves a few variables to retain app state on restart. It saves a log file you can view. It doesn't phone home or have ads. It just turns the networks on and off and (if desired) shows a few notifications that it has done so. App made with Tasker. Save and restore variables routines by u/Ratchet_Guy at r/tasker on Reddit. Check which profiles are disabled routine by u/Svampsson at r/tasker on Reddit. Icon made by bqlqn from www.flaticon.com - https://www.flaticon.com/authors/bqlqn
 
-This can save large amounts of battery: When the network is off, most apps don't wake up and use battery. 
+***************************
+TROUBLESHOOTING TIPS
+***************************
 
-Users have achieved 1% battery use per hour or less, during screen off periods--especially when combined with a ROM, app, or device that handles Doze well. 
+RUNNING WITHOUT ROOT
+Generally, a rooted device is needed to run Network Off Battery Saver.  However, you MAY be able to get the app to work on a non-rooted phone using this technique:
 
-Tap the buttons to select operation mode. Switching modes can take a few seconds.
+https://tasker.joaoapps.com/userguide/en/help/ah_secure_setting_grant.html
 
-ROOTED DEVICE REQUIRED
+INSTALLATION
+Because Network Off Battery Saver is not a Play Store app (yet), there are several issues that may come up during installation. 
 
-Without root the app can't control mobile data--so running it will be worse than useless. 
+To install, you'll need to enable "install unknown apps" from whatever app you are using to install the .apk (usually your file manager or web browser). In Android 9/Pie this is in Settings/Apps/Advanced/Special App Access.  Or search Settings for "install unkown apps".
 
-So if you don't have root, don't run the app. 
+Because the app doesn't come from the Play Store, during install you'll receive a message "Block By Play Protect". Click "Install Anyway" to proceed.
 
-And if you do have root, go into your root/superuser manager and double check that Network Off Battery Saver has root permission. 
+If, instead, you get an "App Not Installed" message, with no other explanation, you can usually complete the installation by turning on Airplane Mode, then running the installer again.  This often happens on the 2nd or subsequent times you have installed the app.
 
 PERMISSIONS
+When the app is first run, if all goes well it will ask for several permissions via popups:
 
-The app requires a few permissions to turn various networks on and off, save its data, etc. If it doesn't seem to operate correctly, please check permissions--and superuser permissions--for the app. 
+ - Write to media (Disk access - to save settings, logs, etc)
+ - VPN (Ability to monitor the network status, tell when Wifi &amp; Mobile Networks are running or stopped)
+ - Modify System Settings (Change network state)
+ - Root access (Needed to turn Mobile Data on/off)
+ - Read Phone State and Calendar access (These are included only due to a current Tasker bug.  The settings are NOT needed and you do not need to enable them.)
 
-You may need to go into Settings/Apps/Network Off Battery Saver/Permissions and double-check all needed permissions, including "Modify System Settings" under the Advanced section. Permissions Button under "Set" helps with this. 
+RECHECKING PERMISSIONS
+If some settings are disabled or you are having trouble, in the app go to Set/Check Permissions.  This cycles through the permission process again.  You will see popups for any missing permissions again. If no popups appear and you see the message "All permissions checked" you should be good to go with all permission except perhaps superuser (check your superuser app for that).
 
-The system will ask whether you want to allow the app to create a VPN. This is how it monitors when the network is on and off. 
+MANUALLY SETTING PERMISSIONS
+You can manually set permissions for the app using these steps:
 
-Finally, it asks for read and write permissions for your calendar. This is due only to a strange bug in the current version of Tasker. The app actually ***does not do anything with your calendar***  and you don't need to grant this permission. 
+ - Settings/Apps/Network Off Battery Saver/Permissions and enable all (except Calendar)
+ - Settings/Apps/Network Off Battery Saver/Advanced/Modify System Settings and enable "Allow modifying system settings"
+ - Open your Superuser app and check that Network Off Battery Saver is enable for Superuser access
+ 
+APP KEEPS ASKING FOR EXTRA PERMISSIONS - HIDE NOTIFICATIONS
+Sometimes you receive additional notifications, sometimes with a vibrate or sound, asking for additional permissions. This appears to be a bug in the current version of Tasker. 
 
-APP STARTS AT BOOT UP - RESTORES PREVIOUS SETTINGS
+You can simply disable these notifications (click on a notification when it pops up and choose "disable").
 
-After it is installed, the app will always start at boot up. 
+Usually the request for permission is "Calendar" or "Read phone state". Again, the app does not need these permissions and you can simply hide these notifications.
 
-It will restore settings same as before the app shut down and continue. 
-
-WHAT YOU CAN DO WITH YOUR NETWORK OFF 
-
-With mobile data and wifi off, you can still receive calls and sms messages, but not mms or other types of messages or notifications. 
-
-By default, networks turn off about 2 minutes after screen off - giving apps time to wrap things up. You can change this value as desired.
-
-Of course, when the screen is on, your network is on, so you proceed as normal. 
-
-**KEEPING TRACK OF WHAT THE APP IS DOING**
-
-LOG FILE
-A log file is kept - check on the Settings page to view it. 
-
-SOFT BEEPS TO INDICATE STATUS 
-You can enable sound - soft beeps let you know when networks are enabled (low pitch, long) or disabled (medium pitch/medium long when screen first goes off, then high pitch/short when the network actually turns off). These sounds are useful for understanding what is happening when the screen is off. 
-
-NOTIFICATIONS TO INDICATE STATUS
-Notifications will indicate when the network is turned on and off. You can disable notifications on the main screen. 
-
-PERIODIC NETWORK WAKEUP
-Periodically the network will wake up for a few minutes to allow apps to sync. Generally, Dozing apps will take that opportunity to sync and do needed networking tasks at that time. This helps ease network load when you turn the screen back on. 
-
-Tweak the wakeup settings on the Set page. 
-
-USING WITH OTHER APPS 
-
-Suggestion: Combine this app with apps like Greenify, Servicely, or Naptime--or simply a ROM, custom kernel, or device that will use Doze effectively. 
-
-If using an app, enable Aggressive Doze. When the network is off - thanks to NOBS - apps can't work or sync, so they have little choice but to start dozing and your battery will be spared.
-
-In Greenify, you may need to disable hibernation for podcast and music player apps that need to run continually while the screen is off. 
-
-You may need to disable hibernation for this app (Network Off Battery Saver) so that it can control the network connectivity while the screen is off. 
-
-For internet-connected podcast and music players, you may need to enable Keep Network On mode on this app while you are listening - one reason for the buttonS on the app's main screen that allows you to change modes. 
-
-OPERATING MODES - OR, THE BIG BUTTONS
-
-For the most part, you will just start the app and let run - never even touch the buttons. The app will turn the networks off when the screen is off and turn them on again when you turn the screen on. You save battery, you are happy. 
-
-The buttons are for occasional special circumstances when you need to change to alternate modes:
-
-* Network Off when Screen Off: This is the default mode of the app. Network turns off soon after screen off. It turns on again for a few minutes periodically to allow syncing and turns on and stays on as long as you have the charger plugged in. 
-
-* Keep Network On: The app won't do anything at all, leaving the networks entirely under your control. 
-
-* Network Always Off: The app will turn the networks off and work to keep them off. Even if you manually turn them back on, it will turn them off again when the screen turns off, and won't turn them back on. 
-
-It's like a partial Airline Mode - for occasions when you want to save battery by keeping networks off automatically for an extended period. For example, if you are in an area with poor data and wifi but decent cell signal for voice, you may want voice and sms connectivity but don't want the battery drain caused by continually searching for a mobile data connection. 
-
-* Temporary Network On: If you have a particular reason you need network on for a period, you can set the minutes needed and click "Temp Net On" This is useful if, for example, you have certain files you need to upload or download occasionally, they take a while to complete, and you don't want to keep screen on to complete them. 
-
-WHY A "USELESS NOTIFICATION"? 
-The app posts a "useless notification" when it starts. You should hide these. They are important to the app's function (the app is based on Tasker, which also uses the same type of notifications) but you can hide them so they don't clutter your device.
-
-This is in addition to the actually useful notifications mentioned above. 
-
-NOTES AND ACKNOWLEDGEMENTS 
-This app was made for use on my own device and for my own purposes. If it helps you, great. If it doesn't, just uninstall it. No warrantee, express or implied. 
-
-The app saves a few variables to retain app state on restart. It saves a log file you can view. It doesn't phone home or have ads. It just turns the networks on and off and (if desired) shows a few notifications that it has done so. 
-
-App made with Tasker. 
-
-Save and restore variables routines by u/Ratchet_Guy at r/tasker on Reddit. 
-
-Check which profiles are disabled routine by u/Svampsson at r/tasker on Reddit.
-
-Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bqlqn</Str>
+You may wish to wait a few minutes or an hour to disable these notifications, just to make sure all other (actually required) notifications are taken care of.</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4525,7 +4573,7 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 	</Task>
 	<Task sr="task378">
 		<cdate>1568113245171</cdate>
-		<edate>1568569418477</edate>
+		<edate>1568703835955</edate>
 		<id>378</id>
 		<nme>Stop All Tasks And Profiles</nme>
 		<pri>100</pri>
@@ -4701,14 +4749,14 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 	</Task>
 	<Task sr="task379">
 		<cdate>1435079541637</cdate>
-		<edate>1568578456437</edate>
+		<edate>1568697255331</edate>
 		<id>379</id>
 		<nme>Restore Tasker User Variables</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<label>TASK WRITTEN BY u/Ratchet_Guy at r/Tasker on Reddit
-✔ SET PATH TO BACKUP FILE TO BE CREATED OR WRITTEN</label>
+âœ” SET PATH TO BACKUP FILE TO BE CREATED OR WRITTEN</label>
 			<Str sr="arg0" ve="3">%filepathname</Str>
 			<Str sr="arg1" ve="3">Android/data/com.bbjproductions.android.networkoffbatterysaver/files/saves/variables.txt</Str>
 			<Int sr="arg2" val="0"/>
@@ -4718,7 +4766,7 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>300</code>
-			<label>↘ BEGIN - ENJOY! reddit /u/Ratchet_Guy</label>
+			<label>â†˜ BEGIN - ENJOY! reddit /u/Ratchet_Guy</label>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>417</code>
@@ -4837,7 +4885,7 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
-			<label>✴ THIS WILL DESIGNATE THE START OF EACH NEW VAR PAIR WHEN WRITTEN TO TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
+			<label>âœ´ THIS WILL DESIGNATE THE START OF EACH NEW VAR PAIR WHEN WRITTEN TO TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
 			<Str sr="arg0" ve="3">%joiner</Str>
 			<Str sr="arg1" ve="3">%ret{{varName=&gt;}}%space</Str>
 			<Int sr="arg2" val="0"/>
@@ -4847,7 +4895,7 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
-			<label>✴ THIS WILL SEPARATE EACH VARS NAME FROM ITS VALUE, WHEN WRITTEN IN TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
+			<label>âœ´ THIS WILL SEPARATE EACH VARS NAME FROM ITS VALUE, WHEN WRITTEN IN TEXT FILE, SHOULD BE CHAR SEQUENCE NEVER LIKELY TO APPEAR IN A VAR NAME OR VALUE, CAN LEAVE AS IS</label>
 			<Str sr="arg0" ve="3">%equals_sign</Str>
 			<Str sr="arg1" ve="3">%space{{varValue=&gt;}}%space</Str>
 			<Int sr="arg2" val="0"/>
@@ -4857,7 +4905,7 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>595</code>
-			<label>📲 GET USER CONFIRMATION OF RESTORE BY TYPING yes</label>
+			<label>ðŸ“² GET USER CONFIRMATION OF RESTORE BY TYPING yes</label>
 			<on>false</on>
 			<Str sr="arg0" ve="3">PROCEED? yes</Str>
 			<Str sr="arg1" ve="3">%confirm</Str>
@@ -4883,7 +4931,7 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>137</code>
-			<label>❎ STOP IF USER CONFIRMATION NOT CORRECT</label>
+			<label>âŽ STOP IF USER CONFIRMATION NOT CORRECT</label>
 			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
@@ -5085,13 +5133,15 @@ Icon made by bqlqn from www.flaticon.com - http s://www.flaticon.com/authors/bql
 	</Task>
 	<Task sr="task381">
 		<cdate>1568132815054</cdate>
-		<edate>1568579563294</edate>
+		<edate>1568705913349</edate>
 		<id>381</id>
 		<nme>Check All Permissions</nme>
 		<pri>100</pri>
+		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">Checking all needed permissions</Str>
+			<Str sr="arg0" ve="3">Checking all needed permissions.
+Look for pop-ups and notifications requesting you to grant permissions.</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
@@ -5110,9 +5160,19 @@ android.permission.WAKE_LOCK
 android.permission.RECEIVE_BOOT_COMPLETED
 android.permission.DISABLE_KEYGUARD
 android.permission.FOREGROUND_SERVICE
-android.permission.WRITE_SETTINGS</Str>
+android.permission.WRITE_SETTINGS
+android.permission.READ_PHONE_STATE</Str>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>342</code>
+			<label>This is to test/force use of root to check if we have root access.</label>
+			<se>false</se>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3">nothing</Str>
+			<Str sr="arg2" ve="3">%temp</Str>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>319</code>
 			<on>false</on>
 			<se>false</se>
@@ -5136,8 +5196,9 @@ android.permission.CHANGE_BACKGROUND_DATA_SETTING
 android.permission.FOREGROUND_SERVICE
 android.permission.FOREGROUND.SERVICE</Str>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">Network Off</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -5147,8 +5208,9 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">Network On</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -5158,7 +5220,15 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">All permissions checked</Str>
 			<Int sr="arg1" val="0"/>
@@ -5882,7 +5952,7 @@ android.permission.FOREGROUND.SERVICE</Str>
 	</Task>
 	<Task sr="task392">
 		<cdate>1568446408210</cdate>
-		<edate>1568446432174</edate>
+		<edate>1568672398435</edate>
 		<id>392</id>
 		<pri>1006</pri>
 		<Action sr="act0" ve="7">
