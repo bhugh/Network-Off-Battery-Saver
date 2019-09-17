@@ -17,7 +17,7 @@ Three other modes are selectable and occasionally useful:
 
 Root required. Help file has many details and questions answered.
 
-Version 2.2
+Version 2.26
 
 ACKNOWLEDGEMENTS
 
