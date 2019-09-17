@@ -1,7 +1,27 @@
+********************
+TROUBLESHOOTING TIPS
+********************
+TOP TIPS:
+ #1. Turn on airplane mode when installing the app (prevents Play Protect from stopping installation midway with a mysterious message)
+ #2. Check and fix app permissions using the Set/Check Permissions button.
+
 RUNNING WITHOUT ROOT
 Generally, a rooted device is needed to run Network Off Battery Saver.  However, you MAY be able to get the app to work on a non-rooted phone using this technique:
 
 https://tasker.joaoapps.com/userguide/en/help/ah_secure_setting_grant.html
+
+WIFI TURNED OFF--BUT CELLULAR DATA LEFT ON
+If cellular data is never turned off, this is almost certainly for one of these reasons:
+ - Your phone is not rooted
+ - The app does not have Superuser access.  In this case, you probably notice occasional access about the app's lack of superuser access.  If you go to Set/Check Permissions you will also get this message.
+ 
+ Solution to #1 is, root your phone (or try the trick described above "Running without Root")
+ Solution to #2 is, go to your Superuser app and make sure "Network Off Battery Saver" is granted superuser access.
+ 
+APP DOESN'T APPEAR, OR APPEARS ONLY AS A LINE OF TEXT AT THE TOP OF THE ANDROID SCREEN
+This bug seems to appear occasionally, especially when the app is first installed.
+
+Just Force Close the app (Settings/Apps/Network Off Battery Saver then click "Force Stop") and tjem try opening it again.
 
 INSTALLATION
 Because Network Off Battery Saver is not a Play Store app (yet), there are several issues that may come up during installation. 
@@ -19,7 +39,8 @@ When the app is first run, if all goes well it will ask for several permissions 
  - VPN (Ability to monitor the network status, tell when Wifi & Mobile Networks are running or stopped)
  - Modify System Settings (Change network state)
  - Root access (Needed to turn Mobile Data on/off)
- - Read Phone State and Calendar access (These are included only due to a current Tasker bug.  The settings are NOT needed and you do not need to enable them.)
+ - Read Phone State (Needed as part of the controls for turning various radios on & off)
+ - Calendar access (This are included only due to a current Tasker limitation. A function used in the app *sometimes* needs Calendar access, so it is included as a required permission that I can't remove. The permission is NOT needed or actually used in the app and you do not need to enable it.)
 
 RECHECKING PERMISSIONS
 If some settings are disabled or you are having trouble, in the app go to Set/Check Permissions.  This cycles through the permission process again.  You will see popups for any missing permissions again. If no popups appear and you see the message "All permissions checked" you should be good to go with all permission except perhaps superuser (check your superuser app for that).
@@ -31,13 +52,6 @@ You can manually set permissions for the app using these steps:
  - Settings/Apps/Network Off Battery Saver/Advanced/Modify System Settings and enable "Allow modifying system settings"
  - Open your Superuser app and check that Network Off Battery Saver is enable for Superuser access
  
-APP KEEPS ASKING FOR EXTRA PERMISSIONS - HIDE NOTIFICATIONS
-Sometimes you receive additional notifications, sometimes with a vibrate or sound, asking for additional permissions. This appears to be a bug in the current version of Tasker. 
 
-You can simply disable these notifications (click on a notification when it pops up and choose "disable").
-
-Usually the request for permission is "Calendar" or "Read phone state". Again, the app does not need these permissions and you can simply hide these notifications.
-
-You may wish to wait a few minutes or an hour to disable these notifications, just to make sure all other (actually required) notifications are taken care of.
 
 
