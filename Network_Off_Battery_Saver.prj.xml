@@ -1,5 +1,22 @@
 <TaskerData sr="" dvi="1" tv="5.8.3">
 	<dmetric>1080.0,1920.0</dmetric>
+	<Profile sr="prof4" ve="2">
+		<cdate>1568736927211</cdate>
+		<clp>true</clp>
+		<edate>1569021034313</edate>
+		<flags>1</flags>
+		<id>4</id>
+		<limit>true</limit>
+		<mid0>369</mid0>
+		<nme>zz-notworking-1Click This To Start</nme>
+		<pri>29</pri>
+		<Time sr="con0">
+			<fh>0</fh>
+			<fm>0</fm>
+			<th>23</th>
+			<tm>59</tm>
+		</Time>
+	</Profile>
 	<Profile sr="prof418" ve="2">
 		<cdate>1568616443208</cdate>
 		<clp>true</clp>
@@ -25,7 +42,7 @@
 	<Profile sr="prof419" ve="2">
 		<cdate>1568616443214</cdate>
 		<clp>true</clp>
-		<edate>1568672940447</edate>
+		<edate>1568737978857</edate>
 		<flags>1</flags>
 		<id>419</id>
 		<limit>true</limit>
@@ -73,6 +90,7 @@
 	</Profile>
 	<Profile sr="prof422" ve="2">
 		<cdate>1568616443253</cdate>
+		<clp>true</clp>
 		<edate>1568672906772</edate>
 		<flags>1</flags>
 		<id>422</id>
@@ -109,13 +127,12 @@
 	<Profile sr="prof424" ve="2">
 		<cdate>1568616443268</cdate>
 		<clp>true</clp>
-		<edate>1568672991455</edate>
+		<edate>1568875947295</edate>
 		<flags>1</flags>
 		<id>424</id>
 		<limit>true</limit>
 		<mid0>382</mid0>
-		<mid1>357</mid1>
-		<nme>Startup_NOBS</nme>
+		<nme>Startup at Boot_NOBS</nme>
 		<Event sr="con0" ve="2">
 			<cname>Device Boot_NOBS</cname>
 			<code>411</code>
@@ -156,7 +173,7 @@
 	<Profile sr="prof427" ve="2">
 		<cdate>1568616443311</cdate>
 		<clp>true</clp>
-		<edate>1568673026492</edate>
+		<edate>1569015132046</edate>
 		<flags>1</flags>
 		<id>427</id>
 		<limit>true</limit>
@@ -193,12 +210,29 @@
 			<Int sr="arg0" val="0"/>
 		</State>
 	</Profile>
+	<Profile sr="prof45" ve="2">
+		<cdate>1568737881765</cdate>
+		<edate>1569021025935</edate>
+		<id>45</id>
+		<limit>true</limit>
+		<mid0>369</mid0>
+		<nme>zz-notworking-1Click This To Start2</nme>
+		<pri>50</pri>
+		<Event sr="con0" ve="2">
+			<code>2075</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">screen_auto_brightness_adj</Str>
+			<Str sr="arg2" ve="3">-1.0</Str>
+		</Event>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1567885570412</cdate>
 		<name>Network Off Battery Saver</name>
-		<pids>419,426,428,423,420,422,425,418,424,421,427</pids>
-		<scenes>Main Configuration Screen,Settings Screen,Variable Query</scenes>
-		<tids>405,373,377,397,367,351,416,394,403,375,393,370,388,406,359,410,415,378,409,391,358,401,366,398,414,387,407,411,356,382,417,384,413,396,430,389,376,386,355,350,374,365,381,361,390,404,408,431,353,380,395,369,412,360,354,385,383,400,357,363,392,362,399,368,379,371,352,372,364</tids>
+		<pids>427,424,425,45,422,420,4,421,423,418,428,419,426</pids>
+		<psort>Alpha</psort>
+		<scenes>Main Configuration Screen,Settings Screen</scenes>
+		<tids>375,393,366,369,384,379,354,389,373,387,377,376,391,359,356,350,396,353,397,417,411,412,410,401,385,400,416,431,378,388,403,413,374,382,404,394,381,365,406,414,415,405,6,358,407,355,395,360,357,185,430,368,390,361,409,399,370,408,386,362,383,380,352,364,392,371,367,398,363,372</tids>
 		<tsort>Alpha</tsort>
 		<Kid sr="Kid">
 			<eperm0>WRITE_SETTINGS</eperm0>
@@ -207,8 +241,8 @@
 			<launchID>369</launchID>
 			<pkg>com.bbjproductions.android.networkoffbatterysaver</pkg>
 			<vTarg>28</vTarg>
-			<vnme>2.25</vnme>
-			<vnum>57</vnum>
+			<vnme>2.28</vnme>
+			<vnum>63</vnum>
 		</Kid>
 		<Share sr="Share">
 			<d>This app turns off wifi and mobile data when the screen is off. They turn back on when the screen is on, and also whenever the phone is plugged in. 
@@ -233,7 +267,7 @@ Help tab has many details and questions answered.
 
 Troubleshooting tips here: https://github.com/bhugh/Network-Off-Battery-Saver/blob/master/Troubleshooting.txt
 
-Version 2.26</d>
+Version 2.29</d>
 			<t>1App Init - Configuration Screen</t>
 		</Share>
 		<Img sr="icon" ve="2">
@@ -616,7 +650,7 @@ Version 2.26</d>
 	</Scene>
 	<Scene sr="sceneSettings Screen">
 		<cdate>1568074050642</cdate>
-		<edate>1568620104855</edate>
+		<edate>1569017061342</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>980</heightPort>
 		<nme>Settings Screen</nme>
@@ -913,152 +947,10 @@ Version 2.26</d>
 			<LinkClickFilter sr="filter0"/>
 		</PropertiesElement>
 	</Scene>
-	<Scene sr="sceneVariable Query">
-		<cdate>1568697255360</cdate>
-		<edate>1568697255360</edate>
-		<heightLand>-1</heightLand>
-		<heightPort>641</heightPort>
-		<nme>Variable Query</nme>
-		<widthLand>-1</widthLand>
-		<widthPort>742</widthPort>
-		<TextElement sr="elements0" ve="3">
-			<flags>4</flags>
-			<geom>13,0,729,162,6,0,324,72</geom>
-			<Str sr="arg0" ve="3">Title</Str>
-			<Str sr="arg1" ve="3">Title</Str>
-			<Int sr="arg2" val="28"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FF5E97F6</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7"/>
-			<Int sr="arg8"/>
-		</TextElement>
-		<RectElement sr="elements1">
-			<flags>4</flags>
-			<geom>0,162,742,6,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Header</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#77333333</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<EditTextElement sr="elements2" ve="3">
-			<flags>13</flags>
-			<geom>31,261,679,162,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">TextEdit1</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="22"/>
-			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7"/>
-			<Int sr="arg8" val="1000"/>
-		</EditTextElement>
-		<RectElement sr="elements3">
-			<flags>4</flags>
-			<geom>0,506,742,6,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Footer</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#77333333</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<ImageElement sr="elements4" ve="2">
-			<clickTask>-936</clickTask>
-			<flags>4</flags>
-			<geom>117,506,135,135,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Accept</Str>
-			<Img sr="arg1" ve="2">
-				<nme>hd_navigation_accept</nme>
-			</Img>
-			<Int sr="arg2" val="255"/>
-		</ImageElement>
-		<ImageElement sr="elements5" ve="2">
-			<clickTask>-936</clickTask>
-			<flags>4</flags>
-			<geom>490,506,135,135,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Cancel</Str>
-			<Img sr="arg1" ve="2">
-				<nme>hd_content_remove</nme>
-			</Img>
-			<Int sr="arg2" val="255"/>
-		</ImageElement>
-		<PropertiesElement sr="props">
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#FF000000</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">Variable Query</Str>
-			<Str sr="arg5" ve="3"/>
-			<Img sr="arg6" ve="2"/>
-			<Str sr="arg7" ve="3"/>
-		</PropertiesElement>
-	</Scene>
-	<Task sr="task350">
-		<cdate>1568591122118</cdate>
-		<edate>1568597339624</edate>
-		<id>350</id>
-		<nme>Temporary Network On - Check If Running</nme>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%TempNetworkOn_onoff</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%TRUN</lhs>
-					<op>2</op>
-					<rhs>*,%TempNetworkOn_running_taskname,*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">running</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TempNetworkOn_onoff</Str>
-			<Str sr="arg1" ve="3">off</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%TempNetworkOn_running_taskname</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>126</code>
-			<Str sr="arg0" ve="3">notrunning</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>38</code>
-		</Action>
-	</Task>
-	<Task sr="task351">
+	<Task sr="task185">
 		<cdate>1568533504652</cdate>
-		<edate>1568620886970</edate>
-		<id>351</id>
+		<edate>1569027051563</edate>
+		<id>185</id>
 		<nme>Exit App</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -1133,12 +1025,65 @@ Version 2.26</d>
 			<Str sr="arg1" ve="3"/>
 		</Action>
 	</Task>
+	<Task sr="task350">
+		<cdate>1568591122118</cdate>
+		<edate>1568597339624</edate>
+		<id>350</id>
+		<nme>Temporary Network On - Check If Running</nme>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TempNetworkOn_onoff</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TRUN</lhs>
+					<op>2</op>
+					<rhs>*,%TempNetworkOn_running_taskname,*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">running</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TempNetworkOn_onoff</Str>
+			<Str sr="arg1" ve="3">off</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%TempNetworkOn_running_taskname</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">notrunning</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
 	<Task sr="task352">
 		<cdate>1568520440161</cdate>
 		<edate>1568538368315</edate>
 		<id>352</id>
 		<nme>Trim Log File</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>123</code>
 			<label>Trim logfile to only last 300 lines</label>
@@ -1335,7 +1280,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 			<label>Save action to log</label>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%NOBS_logfile</Str>
-			<Str sr="arg1" ve="3">%TIME Turning network off. Current mode: %KeepNetOnDisplay</Str>
+			<Str sr="arg1" ve="3">%TIME Turning network off. Current mode: %KeepNetOnDisplay Mode indicator: %KeepNetOn</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="1"/>
 		</Action>
@@ -1528,7 +1473,6 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
-				<bool2>Or</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%Charging</lhs>
 					<op>2</op>
@@ -1541,13 +1485,8 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 				</Condition>
 				<Condition sr="c2" ve="3">
 					<lhs>%KeepNetOn</lhs>
-					<op>1</op>
-					<rhs>on</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%KeepNetOn</lhs>
 					<op>2</op>
-					<rhs>alwaysoff</rhs>
+					<rhs>*off</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -1730,7 +1669,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 	</Task>
 	<Task sr="task357">
 		<cdate>1568004259045</cdate>
-		<edate>1568614309279</edate>
+		<edate>1568875821367</edate>
 		<id>357</id>
 		<nme>Initialize All - Turn On Interface</nme>
 		<pri>100</pri>
@@ -2352,7 +2291,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 	</Task>
 	<Task sr="task360">
 		<cdate>1568054071969</cdate>
-		<edate>1568614441419</edate>
+		<edate>1569015132046</edate>
 		<id>360</id>
 		<nme>Periodic Wakeup</nme>
 		<pri>6</pri>
@@ -3580,9 +3519,9 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 	</Task>
 	<Task sr="task369">
 		<cdate>1568077720619</cdate>
-		<edate>1568697047893</edate>
+		<edate>1568875852294</edate>
 		<id>369</id>
-		<nme>1App Init - Configuration Screen</nme>
+		<nme>1Launch Configuration Screen</nme>
 		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
@@ -3617,12 +3556,24 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Scene On</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>49</code>
 			<on>false</on>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Main Configuration Screen</Str>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">Scene On</Str>
@@ -3666,6 +3617,12 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 			<Str sr="arg1" ve="3"/>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>159</code>
+			<label>User can start the app by clicking this profile to enable it. So now we disable it again.</label>
+			<Str sr="arg0" ve="3">zz-notworking-1Click This To Start2</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<label>This is yes when user has started the app by clicking app or running in Tasker</label>
 			<Str sr="arg0" ve="3">%ManualAppStart</Str>
@@ -3675,7 +3632,7 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Start All Profiles</Str>
 			<Int sr="arg1">
@@ -3686,23 +3643,11 @@ mv -f /sdcard/%NOBS_logfile.proc /sdcard/%NOBS_logfile</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Initialize All - Turn On Interface</Str>
 			<Int sr="arg1">
 				<var>%priority+1</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Scene On</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
 			</Int>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
@@ -4169,7 +4114,7 @@ Low beep then (seconds or minutes later) high beep = networks off initiated, the
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Set Main Help Text</Str>
+			<Str sr="arg0" ve="3">Set Main Help Screen Text</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -4511,14 +4456,76 @@ Low beep then (seconds or minutes later) high beep = networks off initiated, the
 	</Task>
 	<Task sr="task377">
 		<cdate>1568573758196</cdate>
-		<edate>1568622346882</edate>
+		<edate>1569016946987</edate>
 		<id>377</id>
-		<nme>Set Main Help Text</nme>
+		<nme>Set Main Help Screen Text</nme>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<label>Help Screen Text</label>
 			<Str sr="arg0" ve="3">%MainHelpText</Str>
-			<Str sr="arg1" ve="3">This app turns off wifi and mobile data when the screen is off. They turn back on when the screen is on and when charging. This can save large amounts of battery: When the network is off, most apps don't wake up and use battery. Users have achieved 1% battery use per hour or less, during screen off periods--especially when combined with a ROM, app, or device that handles Doze well. Tap the buttons to select operation mode. Switching modes can take a few seconds. ROOTED DEVICE REQUIRED Without root the app can't control mobile data--so running it will be worse than useless. So if you don't have root, don't run the app. And if you do have root, go into your root/superuser manager and double check that Network Off Battery Saver has root permission. PERMISSIONS The app requires a few permissions to turn various networks on and off, save its data, etc. If it doesn't seem to operate correctly, please check permissions--and superuser permissions--for the app. You may need to go into Settings/Apps/Network Off Battery Saver/Permissions and double-check all needed permissions, including "Modify System Settings" under the Advanced section. Permissions Button under "Set" helps with this. The system will ask whether you want to allow the app to create a VPN. This is how it monitors when the network is on and off. Finally, it asks for read and write permissions for your calendar. This is due only to a strange bug in the current version of Tasker. The app actually ***does not do anything with your calendar*** and you don't need to grant this permission. APP STARTS AT BOOT UP - RESTORES PREVIOUS SETTINGS After it is installed, the app will always start at boot up. It will restore settings same as before the app shut down and continue. WHAT YOU CAN DO WITH YOUR NETWORK OFF With mobile data and wifi off, you can still receive calls and sms messages, but not mms or other types of messages or notifications. By default, networks turn off about 2 minutes after screen off - giving apps time to wrap things up. You can change this value as desired. Of course, when the screen is on, your network is on, so you proceed as normal. **KEEPING TRACK OF WHAT THE APP IS DOING** LOG FILE A log file is kept - check on the Settings page to view it. SOFT BEEPS TO INDICATE STATUS You can enable sound - soft beeps let you know when networks are enabled (low pitch, long) or disabled (medium pitch/medium long when screen first goes off, then high pitch/short when the network actually turns off). These sounds are useful for understanding what is happening when the screen is off. NOTIFICATIONS TO INDICATE STATUS Notifications will indicate when the network is turned on and off. You can disable notifications on the main screen. PERIODIC NETWORK WAKEUP Periodically the network will wake up for a few minutes to allow apps to sync. Generally, Dozing apps will take that opportunity to sync and do needed networking tasks at that time. This helps ease network load when you turn the screen back on. Tweak the wakeup settings on the Set page. USING WITH OTHER APPS Suggestion: Combine this app with apps like Greenify, Servicely, or Naptime--or simply a ROM, custom kernel, or device that will use Doze effectively. If using an app, enable Aggressive Doze. When the network is off - thanks to NOBS - apps can't work or sync, so they have little choice but to start dozing and your battery will be spared. In Greenify, you may need to disable hibernation for podcast and music player apps that need to run continually while the screen is off. You may need to disable hibernation for this app (Network Off Battery Saver) so that it can control the network connectivity while the screen is off. For internet-connected podcast and music players, you may need to enable Keep Network On mode on this app while you are listening - one reason for the buttonS on the app's main screen that allows you to change modes. OPERATING MODES - OR, THE BIG BUTTONS For the most part, you will just start the app and let run - never even touch the buttons. The app will turn the networks off when the screen is off and turn them on again when you turn the screen on. You save battery, you are happy. The buttons are for occasional special circumstances when you need to change to alternate modes: * Network Off when Screen Off: This is the default mode of the app. Network turns off soon after screen off. It turns on again for a few minutes periodically to allow syncing and turns on and stays on as long as you have the charger plugged in. * Keep Network On: The app won't do anything at all, leaving the networks entirely under your control. * Network Always Off: The app will turn the networks off and work to keep them off. Even if you manually turn them back on, it will turn them off again when the screen turns off, and won't turn them back on. It's like a partial Airline Mode - for occasions when you want to save battery by keeping networks off automatically for an extended period. For example, if you are in an area with poor data and wifi but decent cell signal for voice, you may want voice and sms connectivity but don't want the battery drain caused by continually searching for a mobile data connection. * Temporary Network On: If you have a particular reason you need network on for a period, you can set the minutes needed and click "Temp Net On" This is useful if, for example, you have certain files you need to upload or download occasionally, they take a while to complete, and you don't want to keep screen on to complete them. WHY A "USELESS NOTIFICATION"? The app posts a "useless notification" when it starts. You should hide these. They are important to the app's function (the app is based on Tasker, which also uses the same type of notifications) but you can hide them so they don't clutter your device. This is in addition to the actually useful notifications mentioned above. NOTES AND ACKNOWLEDGEMENTS This app was made for use on my own device and for my own purposes. If it helps you, great. If it doesn't, just uninstall it. No warrantee, express or implied. The app saves a few variables to retain app state on restart. It saves a log file you can view. It doesn't phone home or have ads. It just turns the networks on and off and (if desired) shows a few notifications that it has done so. App made with Tasker. Save and restore variables routines by u/Ratchet_Guy at r/tasker on Reddit. Check which profiles are disabled routine by u/Svampsson at r/tasker on Reddit. Icon made by bqlqn from www.flaticon.com - https://www.flaticon.com/authors/bqlqn
+			<Str sr="arg1" ve="3">This app turns off wifi and mobile data when the screen is off. They turn back on when the screen is on and when charging. This can save large amounts of battery: When the network is off, most apps don't wake up and use battery. Users have achieved 1% battery use per hour or less, during screen off periods--especially when combined with a ROM, app, or device that handles Doze well. Tap the buttons to select operation mode. Switching modes can take a few seconds. 
+
+ROOTED DEVICE REQUIRED Without root the app can't control mobile data--so running it will be worse than useless. So if you don't have root, don't run the app. And if you do have root, go into your root/superuser manager and double check that Network Off Battery Saver has root permission. 
+
+PERMISSIONS 
+The app requires a few permissions to turn various networks on and off, save its data, etc. If it doesn't seem to operate correctly, please check permissions--and superuser permissions--for the app. 
+
+You may need to go into Settings/Apps/Network Off Battery Saver/Permissions and double-check all needed permissions, including "Modify System Settings" under the Advanced section. Permissions Button under "Set" helps with this. 
+
+The system will ask whether you want to allow the app to create a VPN. This is how it monitors when the network is on and off.
+
+Finally, it asks for read and write permissions for your calendar. This is due only to a strange bug in the current version of Tasker. The app actually ***does not do anything with your calendar*** and you don't need to grant this permission. 
+
+APP STARTS AT BOOT UP - RESTORES PREVIOUS SETTINGS After it is installed, the app will always start at boot up. It will restore settings same as before the app shut down and continue. 
+
+WHAT YOU CAN DO WITH YOUR NETWORK OFF 
+With mobile data and wifi off, you can still receive calls and sms messages, but not mms or other types of messages or notifications. By default, networks turn off about 2 minutes after screen off - giving apps time to wrap things up. You can change this value as desired. Of course, when the screen is on, your network is on, so you proceed as normal. 
+
+**KEEPING TRACK OF WHAT THE APP IS DOING** 
+
+LOG FILE 
+A log file is kept - check on the  Page to view it.
+
+SOFT BEEPS TO INDICATE STATUS 
+You can enable sound - soft beeps let you know when networks are enabled (low pitch, long) or disabled (medium pitch/medium long when screen first goes off, then high pitch/short when the network actually turns off). These sounds are useful for understanding what is happening when the screen is off. 
+
+NOTIFICATIONS TO INDICATE STATUS 
+Notifications will indicate when the network is turned on and off. You can disable notifications on the main screen. 
+
+PERIODIC NETWORK WAKEUP 
+Periodically the network will wake up for a few minutes to allow apps to sync. Generally, Dozing apps will take that opportunity to sync and do needed networking tasks at that time. This helps ease network load when you turn the screen back on. Tweak the wakeup settings on the Set page. 
+
+USING WITH OTHER APPS
+Suggestion: Combine this app with apps like Greenify, Servicely, or Naptime--or simply a ROM, custom kernel, or device that will use Doze effectively. If using an app, enable Aggressive Doze. When the network is off - thanks to this app - apps can't work or sync, so they have little choice but to start dozing and your battery will be spared. In Greenify, you may need to disable hibernation for podcast and music player apps that need to run continually while the screen is off. You may need to disable hibernation for this app (Network Off Battery Saver) so that it can control the network connectivity while the screen is off. For internet-connected podcast and music players, you may need to enable Keep Network On mode on this app while you are listening - one reason for the buttonS on the app's main screen that allows you to change modes. 
+
+OPERATING MODES - OR, THE BIG BUTTONS 
+For the most part, you will just start the app and let run - never even touch the buttons. The app will turn the networks off when the screen is off and turn them on again when you turn the screen on. You save battery, you are happy. The buttons are for occasional special circumstances when you need to change to alternate modes: 
+
+* Network Off when Screen Off: This is the default mode of the app. Network turns off soon after screen off. It turns on again for a few minutes periodically to allow syncing and turns on and stays on as long as you have the charger plugged in. 
+
+* Keep Network On: The app won't do anything at all, leaving the networks entirely under your control. 
+
+* Network Always Off: The app will turn the networks off and work to keep them off. Even if you manually turn them back on, it will turn them off again when the screen turns off, and won't turn them back on. It's like a partial Airline Mode - for occasions when you want to save battery by keeping networks off automatically for an extended period. 
+
+For example, if you are in an area with poor data and wifi but decent cell signal for voice, you may want voice and sms connectivity but don't want the battery drain caused by continually searching for a mobile data connection. 
+
+* Temporary Network On: If you have a particular reason you need network on for a period, you can set the minutes needed and click "Temp Net On" This is useful if, for example, you have certain files you need to upload or download occasionally, they take a while to complete, and you don't want to keep screen on to complete them. 
+
+WHY A "USELESS NOTIFICATION"? 
+The app posts a "useless notification" when it starts. You should hide these. They are important to the app's function (the app is based on Tasker, which also uses the same type of notifications) but you can hide them so they don't clutter your device. This is in addition to the actually useful notifications mentioned above. 
+
+NOTES AND ACKNOWLEDGEMENTS 
+This app was made for use on my own device and for my own purposes. If it helps you, great. If it doesn't, just uninstall it. No warrantee, express or implied. 
+
+The app saves a few variables to retain app state on restart. It saves a log file you can view. It doesn't phone home or have ads. It just turns the networks on and off and (if desired) shows a few notifications that it has done so. 
+
+App made with Tasker. 
+
+Save and restore variables routines by u/Ratchet_Guy at r/tasker on Reddit. 
+
+Check which profiles are disabled routine by u/Svampsson at r/tasker on Reddit. 
+
+Icon made by bqlqn from www.flaticon.com - https://www.flaticon.com/authors/bqlqn
 
 ***************************
 TROUBLESHOOTING TIPS
@@ -5133,7 +5140,7 @@ You may wish to wait a few minutes or an hour to disable these notifications, ju
 	</Task>
 	<Task sr="task381">
 		<cdate>1568132815054</cdate>
-		<edate>1568705913349</edate>
+		<edate>1569015757893</edate>
 		<id>381</id>
 		<nme>Check All Permissions</nme>
 		<pri>100</pri>
@@ -5146,6 +5153,7 @@ Look for pop-ups and notifications requesting you to grant permissions.</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>319</code>
+			<label>This task includes only permissions that the app actually does use or need.</label>
 			<se>false</se>
 			<Str sr="arg0" ve="3">android.permission.ACCESS_NETWORK_STATE
 android.permission.WRITE_EXTERNAL_STORAGE
@@ -5160,10 +5168,28 @@ android.permission.WAKE_LOCK
 android.permission.RECEIVE_BOOT_COMPLETED
 android.permission.DISABLE_KEYGUARD
 android.permission.FOREGROUND_SERVICE
-android.permission.WRITE_SETTINGS
-android.permission.READ_PHONE_STATE</Str>
+android.permission.WRITE_SETTINGS</Str>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>319</code>
+			<label>This list of permissions is trimmed down to the absolute minimum the app actually needs/uses.</label>
+			<on>false</on>
+			<se>false</se>
+			<Str sr="arg0" ve="3">android.permission.ACCESS_NETWORK_STATE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.ACCESS_SUPERUSER
+android.permission.VIBRATE
+android.permission.WAKE_LOCK
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.DISABLE_KEYGUARD
+android.permission.FOREGROUND_SERVICE</Str>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>342</code>
 			<label>This is to test/force use of root to check if we have root access.</label>
 			<se>false</se>
@@ -5172,7 +5198,7 @@ android.permission.READ_PHONE_STATE</Str>
 			<Str sr="arg2" ve="3">%temp</Str>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>319</code>
 			<on>false</on>
 			<se>false</se>
@@ -5196,7 +5222,7 @@ android.permission.CHANGE_BACKGROUND_DATA_SETTING
 android.permission.FOREGROUND_SERVICE
 android.permission.FOREGROUND.SERVICE</Str>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">Network Off</Str>
@@ -5208,7 +5234,7 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">Network On</Str>
@@ -5220,7 +5246,7 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="10"/>
@@ -5228,7 +5254,7 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">All permissions checked</Str>
 			<Int sr="arg1" val="0"/>
@@ -5236,7 +5262,7 @@ android.permission.FOREGROUND.SERVICE</Str>
 	</Task>
 	<Task sr="task382">
 		<cdate>1568176712883</cdate>
-		<edate>1568578543489</edate>
+		<edate>1568875937365</edate>
 		<id>382</id>
 		<nme>Boot Up Tasks</nme>
 		<pri>6</pri>
@@ -5285,6 +5311,17 @@ android.permission.FOREGROUND.SERVICE</Str>
 					<rhs>Yes</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Initialize All - Turn On Interface</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task383">
@@ -6006,7 +6043,7 @@ android.permission.FOREGROUND.SERVICE</Str>
 		<cdate>1568086506409</cdate>
 		<edate>1568086506409</edate>
 		<id>394</id>
-		<pri>104</pri>
+		<pri>105</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Main Configuration Screen</Str>
@@ -6117,10 +6154,15 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>67</code>
-			<Str sr="arg0" ve="3">Settings Screen</Str>
-			<Str sr="arg1" ve="3">SettingsHelpText</Str>
-			<Int sr="arg2" val="13"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">Set Settings Help Screen Text</Str>
+			<Int sr="arg1">
+				<var>%priority+1</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>38</code>
@@ -6191,13 +6233,10 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>65</code>
-			<label>This button happens to be topmost, so we can just hide it.</label>
+			<code>67</code>
 			<Str sr="arg0" ve="3">Settings Screen</Str>
-			<Str sr="arg1" ve="3">Display Log File Inapp Button</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<Str sr="arg1" ve="3">SettingsHelpText</Str>
+			<Int sr="arg2" val="13"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>37</code>
@@ -6225,29 +6264,20 @@ android.permission.FOREGROUND.SERVICE</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>65</code>
+			<label>This button happens to be topmost, so we can just hide it.</label>
+			<Str sr="arg0" ve="3">Settings Screen</Str>
+			<Str sr="arg1" ve="3">Display Log File Inapp Button</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>67</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">Main Configuration Screen</Str>
 			<Str sr="arg1" ve="3">StatusToggleText</Str>
 			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<label>Set SETTINGS SCREEN HELP text</label>
-			<Str sr="arg0" ve="3">%SettingsHelpScreenText</Str>
-			<Str sr="arg1" ve="3">* Periodic Wakeup will periodically turn your network (wifi/mobile data) on when the app has turned it off and the screen is off. 
-
-This can help device apps and services periodically check in with the network while still saving battery/doze time most of the time. 
-
-Also, this can help reduce network congestion when you do turn the device back on, because most apps and services have synced during this period. 
-
-Note that time between wakeups is approximate. 
-
-A sensible setting would be 30 minutes between wakeups, 3 minute wakeup period. </Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>51</code>
@@ -6308,7 +6338,7 @@ A sensible setting would be 30 minutes between wakeups, 3 minute wakeup period. 
 	</Task>
 	<Task sr="task397">
 		<cdate>1568445356710</cdate>
-		<edate>1568594762470</edate>
+		<edate>1568737039250</edate>
 		<id>397</id>
 		<nme>IsNetworkOn</nme>
 		<pri>100</pri>
@@ -8090,6 +8120,37 @@ Low beep then (seconds or minutes later) high beep = networks off initiated, the
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1569016895609</cdate>
+		<edate>1569016906048</edate>
+		<id>6</id>
+		<nme>Set Settings Help Screen Text</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Set SETTINGS SCREEN HELP text</label>
+			<Str sr="arg0" ve="3">%SettingsHelpScreenText</Str>
+			<Str sr="arg1" ve="3">* Periodic Wakeup will periodically turn your network (wifi/mobile data) on when the app has turned it off and the screen is off. 
+
+This can help device apps and services periodically check in with the network while still saving battery/doze time most of the time. 
+
+Also, this can help reduce network congestion when you do turn the device back on, because most apps and services have synced during this period. 
+
+Note that time between wakeups is approximate. 
+
+A sensible setting would be 30 minutes between wakeups, 3 minute wakeup period.
+
+VIEWING THE LOG FILE 
+The app keeps a log of most actions, such as when settings are changed and when the network is turned on or off. 
+
+Viewing this, you can verify that the app is working as you wish. 
+
+You can view the whole log file (using a separate app, where you can save the text, export it to a different device, etc) or just the end of the log file, which has the most recent entries.</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
 		</Action>
 	</Task>
 </TaskerData>
